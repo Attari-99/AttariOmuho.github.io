@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css" />
+
+    <style>
+      .accordion {
+        background-color: rgb(241, 239, 239);
+        color: rgb(58, 58, 58);
+        padding: 5px;
+        width: 90%;
+        border: none;
+
+        outline: none;
+        transition: 0.4s;
+        border-radius: 5px;
+        margin-left: 80px;
+      }
+
+      .active,
+      .accordion:hover {
+        background-color: rgb(171, 226, 217);
+      }
+
+      .accordion:after {
+        content: "\002B";
+
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+        margin-right: 20px;
+        font-size: 20px;
+      }
+
+      .active:after {
+        content: "\2212";
+      }
+
+      .panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+    </style>
+
+    <title>Animation</title>
+  </head>
+  <body>
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" style="margin-left: 40px" href="index.html"
+        >Attari Omuho</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Bar Content-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="col d-flex justify-content-center">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Motion Design.html">Motion Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Product Design.html">Product Design</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Illustration.html">Illustration</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Animation.html">Animation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Graphic design.html">Graphic Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Schoolwork.html">Schoolwork</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Videos-->
+
+    <!--Valentines is coming-->
+    <button class="accordion">
+      <div class="col d-flex justify-content-center">
+        <h4 style="margin-left: 20px; margin-top: 30px">
+          Valentines is Coming
+        </h4>
+      </div>
+    </button>
+    <div class="panel">
+      <div class="container">
+        <div class="col d-flex justify-content-center">
+          <video width="1200px" controls style="margin-top: 20px">
+            <source src="./Assets/Animation/Safe version.mp4" />
+          </video>
+        </div>
+        <p style="margin-top: 20px">
+          This was my 4D (4-Dimensional Design) project in school. The name at
+          the end (Diplomatist Vulgar) is my illustrator alias.
+        </p>
+      </div>
+    </div>
+
+    <!--The Return-->
+    <button class="accordion">
+      <h4 style="margin-left: 20px; margin-top: 30px">The Return</h4>
+    </button>
+    <div class="panel">
+      <div class="container">
+        <div class="col d-flex justify-content-center">
+          <video width="1200px" controls style="margin-top: 20px">
+            <source src="./Assets/Animation/THE RETURN complete.mp4" />
+          </video>
+        </div>
+        <p style="margin-top: 20px">
+          Being fascinated by how music greatly aids in telling a story, I made
+          a short animation in Adobe After Effects to the Kung Fu Panda theme by
+          Hans Zimmer.
+        </p>
+      </div>
+    </div>
+
+    <!--Game Over-->
+    <button class="accordion">
+      <h4 style="margin-left: 20px; margin-top: 30px">Game Over</h4>
+    </button>
+    <div class="panel">
+      <div class="container">
+        <div class="col d-flex justify-content-center">
+          <video width="600px" controls style="margin-top: 20px">
+            <source src="./Assets/Animation/Game over illustration 2.mp4" />
+          </video>
+        </div>
+        <p style="margin-top: 20px">
+          This is part of the work I did with Kenyan Producer Tonii Vendetta.
+          The visualizer motion graphic can be found in the
+          <a
+            href="./Motion
+        Design.html"
+          >
+            Motion Design page.</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!--Hip Roach-->
+    <button class="accordion">
+      <h4 style="margin-left: 20px; margin-top: 30px">Hip Roach</h4>
+    </button>
+    <div class="panel">
+      <div class="container">
+        <div class="col d-flex justify-content-center">
+          <video width="650px" controls style="margin-top: 20px">
+            <source src="./Assets/Animation/Hip Roach.mp4" />
+          </video>
+        </div>
+        <p style="margin-top: 20px">
+          This is part of the work I did with Kenyan Producer Tonii Vendetta.
+          The visualizer motion graphic can be found in the
+          <a
+            href="./Motion
+        Design.html"
+          >
+            Motion Design page.</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!--Money Ain't All-->
+    <button class="accordion">
+      <h4 style="margin-left: 20px; margin-top: 20px">Money Ain't All</h4>
+    </button>
+    <div class="panel">
+      <div class="container">
+        <div class="col d-flex justify-content-center">
+          <video width="600px" controls style="margin-top: 20px">
+            <source src="./Assets/Animation/money aint all third pass.mp4" />
+          </video>
+        </div>
+        <p style="margin-top: 20px">
+          This is part of the work I did with Kenyan Producer Tonii Vendetta.
+          The visualizer motion graphic can be found in the
+          <a
+            href="./Motion
+        Design.html"
+          >
+            Motion Design page.</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!--Lotion Shenanigans-->
+    <button class="accordion">
+      <h4 style="margin-left: 20px; margin-top: 30px">Lotion Shenanigans</h4>
+    </button>
+    <div class="panel">
+      <div class="container">
+        <div class="col d-flex justify-content-center">
+          <video width="700px" controls style="margin-top: 20px">
+            <source src="./Assets/Animation/Lotion shenanigans.mp4" />
+          </video>
+        </div>
+        <p style="margin-top: 20px">
+          A friend saw the motion design work I had done with my friends (as the
+          collective Gamara) and said to create an interesting animation that he
+          would pitch to Nivea (he had connections with someone who worked
+          there). They were amused by the animation.
+        </p>
+      </div>
+    </div>
+
+    <!--Moov Light it Up-->
+    <button class="accordion">
+      <h4 style="margin-left: 20px; margin-top: 30px">Moov : Light It Up</h4>
+    </button>
+    <div class="panel">
+      <div class="container">
+        <div class="col d-flex justify-content-center">
+          <video width="700px" controls style="margin-top: 20px">
+            <source
+              src="./Assets/Moov Animation and Motion Design/Light it up edit 2.mp4"
+            />
+          </video>
+        </div>
+        <p style="margin-top: 20px">
+          More of the work we did (Gamara) in our experimental session with Moov
+          Cafe and Bistro.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
